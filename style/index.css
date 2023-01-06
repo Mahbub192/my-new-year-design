@@ -1,0 +1,261 @@
+/* Set margin top bottom right and left is 0px  and adding font*/
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* banner and background style */
+.benner {
+  background: url("../images/banner/banner2.png");
+  height: 900px;
+  background-size: cover;
+}
+/* Benner description  position*/
+.benner-description {
+  padding: 216px 230px 167px 845px;
+  text-align: right;
+}
+/* benner-heading design */
+
+.benner-heading {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+/* benner-paragraph style */
+.benner-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 32px;
+}
+/* benner-btn style */
+.benner-btn {
+  padding: 26px 20px;
+  background: #f15b22;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+/* My failures of previous year */
+/* previous-year-history adding margin top bottom right and left*/
+.previous-year-history {
+  margin: 130px 322px 130px 206px;
+  display: flex;
+  align-items: center;
+  gap: 87px;
+}
+/* previous-year-heading  style*/
+.previous-year-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+/* previous-year-paragraph style */
+.previous-year-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.previous-year-history i {
+  color: #16d887;
+  font-size: 20px;
+  padding-right: 14px;
+}
+.previous-year-history .option {
+  margin-bottom: 8px;
+}
+
+.education-history {
+  margin: 40px 338px;
+  text-align: center;
+}
+.education-headding {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.education-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 20px;
+}
+.education-list {
+  display: flex;
+  gap: 24px;
+}
+.education-list .education-box-size {
+  padding: 54px 23px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+}
+.education-box-size i {
+  margin-bottom: 31px;
+  font-size: 30px;
+}
+.education-box-size h3 {
+  margin-bottom: 16px;
+}
+/* my-plans section style */
+/* my-plans */
+.my-plans {
+  margin: 130px 230px;
+}
+/* my-plans-heading style */
+.my-plans-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* plains-item style */
+.plains-item {
+  display: flex;
+  justify-content: space-around;
+}
+/* start individual-plan image align center h3 and p style */
+.individual-plan img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.individual-plan h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 16px;
+}
+.individual-plan p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+/* ent individual-plan image align center h3 and p style */
+
+/* start adding background image and gradient */
+.think-positive-block {
+  margin: 230px 124px;
+  height: 300px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+.think-positive-block-description {
+  padding-top: 60px;
+  padding-left: 64px;
+}
+.think-positive-block-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.think-positive-block-btn {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 21px 36px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #f15b22;
+}
+/* end adding background image and gradient */
+
+/* Footer part */
+.footer-part {
+  padding: 230px 130px;
+  background: #151414;
+}
+.future {
+  width: 600px;
+}
+.our-future {
+  display: flex;
+  justify-content: space-around;
+}
+.future-heading {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.future-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.footer-email,
+.phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.social-media-icons {
+  margin-top: 16px;
+  display: flex;
+  gap: 30px;
+}
+.subscribe-heading {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+.subscribe-info input {
+  width: 325px;
+  height: 64px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #151414;
+  margin-bottom: 16px;
+}
+.subscribe-info input[placeholder] {
+  color: #f3f3f3 !important;
+  padding-left: 30px;
+}
+.subscribe-btn {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px 36px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  line-height: 24px;
+  color: #f15b22;
+}
